@@ -8,6 +8,11 @@ const routes = [
     name: "Facebook",
     component: () => import("@/views/facebook/home/FacebookView.vue"),
   },
+  {
+    path: "/netflix",
+    name: "Netflix",
+    component: () => import("@/views/netflix/NetflixView.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -1,0 +1,48 @@
+.netflix_view {
+  border: 1px solid grey;
+  width: 772px;
+  min-height: 50em;
+  margin-bottom: 20px;
+}
+
+.header {
+  background: #dc181e;
+  height: 2.6em;
+  border-bottom: 1px solid black;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_film {
+  display: flex;
+  gap: 75px;
+  margin-left: 62px;
+}
+
+.see {
+  display: flex;
+  justify-content: end;
+}
+
+.see_more {
+  margin-top: 14px;
+  text-align: right;
+  margin-right: 12px;
+  color: #00458b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.hr {
+  margin-top: 18px;
+  background: url("@/assets/process_top_edge.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10px;
+}

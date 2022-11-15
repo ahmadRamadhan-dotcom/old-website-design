@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-import BannerHero from "@/components/BannerHero.vue";
+import BannerHero from "@/components/home/BannerHero.vue";
 </script>

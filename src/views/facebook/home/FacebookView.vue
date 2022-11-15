@@ -1,6 +1,6 @@
 <template>
   <div id="facebook_view">
-    <div class="header">
+    <header class="header">
       <img src="@/assets/fb-left-logo.jpg" alt="" />
       <div class="right">
         <img src="@/assets/fb-right-logo.jpg" alt="" />
@@ -10,7 +10,7 @@
           <p id="link">about</p>
         </div>
       </div>
-    </div>
+    </header>
     <main class="main">
       <aside class="aside">
         <div class="aside_content">
