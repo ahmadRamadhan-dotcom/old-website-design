@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <p>this is home view</p>
-  </div>
+  <BannerHero />
 </template>
+
+<script setup>
+import BannerHero from "@/components/BannerHero.vue";
+</script>
