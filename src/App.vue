@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <TestComp />
-  </div>
+  <RouterView />
 </template>
 
-<script setup>
-import TestComp from "@/components/TestComp.vue";
-</script>
+<script setup></script>
